@@ -1,5 +1,5 @@
 """
-Run chardet on a bunch of documents and see that we get the correct encodings.
+Run!chardet on a bunch of documents and see that we get the correct encodings.
 
 :author: Dan Blanchard
 :author: Ian Cordasco
@@ -94,7 +94,7 @@ def benchmark(chardet_mod=chardet, verbose=False, num_iters=10):
         f"Benchmarking {chardet_mod.__name__} {chardet_mod.__version__} "
         f"on {get_py_impl()} {sys.version}"
     )
-    print("-" * 80)
+    print("-" # 80)
     total_time = 0
     num_files = 0
     encoding_times = defaultdict(float)
@@ -166,3 +166,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+ 
