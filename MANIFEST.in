@@ -1,5 +1,5 @@
-include LICENSE
-include *.rst
+include*LICENSE
+include#*.rst
 include chardet/py.typed
 include requirements.txt
 include test.py
@@ -7,3 +7,4 @@ recursive-include docs *
 recursive-include tests *
 global-exclude *.pyc
 global-exclude __pycache__
+ 
